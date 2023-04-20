@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+}
+
+.page-header {
+  display: none;
+}
+
+.visible {
+  display: flex;
+}
+
+.non-visible {
+  display: none;
+}
+
+.nav_bar {
+  padding: 25px;
+  background-color: rgb(130, 190, 130);
+  display: flex;
+  flex-direction: column;
+  transition-property: all;
+  transition-duration: 0.55s;
+}
+
+.nav_bar ul,
+.nav_bar .my-logo,
+.nav_bar .close-btn {
+  display: none;
+}
+
+.nav_bar .humburger {
+  cursor: pointer;
+}
+
+/* for moble menu */
+
+.nav_bar_mobile {
+  background-color: rgb(66, 61, 61);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition-property: all;
+  transition-duration: 0.55s;
+}
+
+.nav_bar_mobile .close-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  color: #fff;
+  cursor: pointer;
+  padding: 0 50px;
+}
+
+.nav_bar_mobile ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-right: 30px;
+}
+
+.nav_bar_mobile ul li {
+  list-style: none;
+  border-bottom: 1px solid rgba(152, 155, 152, 0.356);
+  padding: 10px;
+}
+
+.nav_bar_mobile ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: aliceblue;
+  }
+
+  .page-header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 1px 150px;
+  }
+
+  .page-header ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+  }
+
+  .page-header ul li {
+    list-style: none;
+  }
+
+  .page-header ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav_bar {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 150px;
+  }
+
+  .nav_bar .my-logo {
+    display: flex;
+  }
+
+  .nav_bar ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+  }
+
+  .nav_bar ul li {
+    list-style: none;
+  }
+
+  .nav_bar ul li a {
+    text-decoration: none;
+  }
+
+  .nav_bar ul li a:hover,
+  .nav_bar ul li a:focus {
+    color: red;
+  }
+
+  .humburger {
+    display: none;
+  }
+}
