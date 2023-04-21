@@ -17,7 +17,8 @@ body {
 }
 
 .nav_bar {
-  padding: 25px;
+  padding-top: 25px ;
+  padding-bottom: 25px ;
   background-color: rgb(130, 190, 130);
   display: flex;
   flex-direction: column;
@@ -32,6 +33,8 @@ body {
 }
 
 .nav_bar .humburger {
+  width: 20px;
+  height: 20px;
   cursor: pointer;
 }
 
@@ -73,9 +76,116 @@ body {
   text-decoration: none;
 }
 
+.padding-x {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.main-program {
+  background-color: rgb(34, 32, 32);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  row-gap: 20px;
+}
+
+.main-program .h1-desk {
+  display: none;
+}
+
+.main-program .h1-mob {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 30px;
+  background-color: rgb(223, 55, 55);
+}
+
+.main-program .main-program-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+
+}
+
+.main-program .main-program-content div {
+  background-color: rgb(68, 65, 65);
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  border: 2px solid rgb(34, 32, 32);
+}
+
+.main-program .main-program-content div h2 {
+  color: rgb(238, 94, 94);
+}
+
+.main-program .main-program-content div:hover {
+  border: 2px solid whitesmoke;
+}
+
+
+.feature-speaker {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+}
+
+.feature-speaker .feature-speaker-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 15px;
+  align-items: center;
+}
+
+.feature-speaker .feature-speaker-content .user-info {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+}
+
+.feature-speaker .feature-speaker-content .user-info .user-image {
+  width: 150px;
+  height: 160px;
+}
+
+.feature-speaker .feature-speaker-content .user-biograph {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.feature-speaker .feature-speaker-content .user-biograph span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.feature-speaker .feature-speaker-content .user-biograph .education{
+  color: rgb(224, 67, 67);
+  font-size: 12px;
+  font-style: italic;
+}
+
+.feature-speaker .feature-speaker-content .user-biograph .span {
+  width: 10%;
+  background-color: black;
+  border-top: 3px solid #d8d4d4;
+}
+
+
 @media (min-width: 768px) {
   body {
     background-color: aliceblue;
+  }
+
+
+  .padding-x {
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
   .page-header {
@@ -84,7 +194,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    padding: 1px 150px;
   }
 
   .page-header ul {
@@ -107,7 +216,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .nav_bar .my-logo {
@@ -135,5 +245,102 @@ body {
 
   .humburger {
     display: none;
+  }
+
+  .main-program {
+    background-color: rgb(34, 32, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    row-gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .main-program .main-program-content {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1px;
+
+  }
+
+  .main-program .main-program-content div {
+    background-color: rgb(68, 65, 65);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(34, 32, 32);
+  }
+
+  .main-program .main-program-content div h2 {
+    color: rgb(238, 94, 94);
+  }
+
+  .main-program .main-program-content div:hover {
+    border: 2px solid whitesmoke;
+  }
+
+  .main-program .h1-mob {
+    display: none;
+  }
+
+  .main-program .h1-desk {
+    display: flex;
+    text-decoration: underline;
+  }
+
+  .feature-speaker {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    align-items: center;
+  }
+
+  .feature-speaker .feature-speaker-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: blueviolet;
+  }
+
+  .feature-speaker .feature-speaker-content .user-info {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    width: 47%;
+  }
+
+  .feature-speaker .feature-speaker-content .user-info .user-image {
+    width: 120px;
+    height: 150px;
+  }
+
+  .feature-speaker .feature-speaker-content .user-biograph {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+.feature-speaker .feature-speaker-content .user-biograph span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+  .feature-speaker .feature-speaker-content .user-biograph .education{
+    color: rgb(224, 67, 67);
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  .feature-speaker .feature-speaker-content .user-biograph .span {
+    width: 10%;
+    background-color: black;
+    border-top: 3px solid #d8d4d4;
   }
 }
