@@ -36,14 +36,51 @@ const featuerspeaker = [{
   speakerImage: './imgs/users/gg.jpg',
   speakerBiograph: {
     education: 'Computer Scince @ University of Gondar',
+    description: 'Some versions of Microsoft Word also document and you will get this paragraph: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+  },
+},
+{
+  speakerName: 'Yachaie Blanker',
+  speakerImage: './imgs/users/index.jpg',
+  speakerBiograph: {
+    education: 'Computer Scince @ University of Gondar',
+    description: 'Some versions of Microsoft Word ment and you will get this paragraph: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+  },
+},
+{
+  speakerName: 'Yachaie Blanker',
+  speakerImage: './imgs/users/index.jpg',
+  speakerBiograph: {
+    education: 'Computer Scince @ University of Gondar',
+    description: 'Some versions of Microsoft Word ment and you will get this paragraph: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+  },
+},
+{
+  speakerName: 'Yachaie Blanker',
+  speakerImage: './imgs/users/gg.jpg',
+  speakerBiograph: {
+    education: 'Computer Scince @ University of Gondar',
     description: 'Some versions of Microsoft t type it in your Word document and you will get this paragraph: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
   },
 },
 ];
 const speakercontent = document.querySelector('.feature-speaker-content');
+let x = 0;
 for (let i = 0; i < featuerspeaker.length; i++) {
+  // to add view more in mobile verision
+  if (x >= 2) {
+    const viewmore = document.createElement('div');
+    viewmore.className = 'user-info-view-more';
+    viewmore.innerHTML = '<h4>MORE <span>⩒</span></h4>';
+    speakercontent.appendChild(viewmore);
+    x = -4;
+  }
+  x++;
   const userinfo = document.createElement('div');
   userinfo.className = 'user-info';
+  if (i >= 2) {
+    userinfo.classList.add('user-info-hide');
+  }
   speakercontent.appendChild(userinfo);
 
   const userImage = document.createElement('img');
@@ -73,3 +110,28 @@ for (let i = 0; i < featuerspeaker.length; i++) {
   speakereInfo.innerHTML = featuerspeaker[i].speakerBiograph.description;
   userbiograph.appendChild(speakereInfo);
 }
+
+// to view more the hidden content in mobile vew about speaker content
+const viewMorecontent = document.querySelector('.user-info-view-more');
+viewMorecontent.addEventListener('click', () => {
+  viewMorecontent.classList.replace('user-info-view-more', 'non-visible');
+  const hideMoreview = document.createElement('dav');
+  hideMoreview.className = 'hide-more-view';
+  hideMoreview.innerHTML = '<h4>Hide <span>⩑</span></h4>';
+  speakercontent.appendChild(hideMoreview);
+
+  const showuserinf = document.querySelectorAll('.user-info-hide');
+  for (let f = 0; f < showuserinf.length; f++) {
+    showuserinf[f].classList.replace('user-info-hide', 'visible');
+  }
+  // to hide listed view
+  const hideListview = document.querySelector('.hide-more-view');
+  hideListview.addEventListener('click', () => {
+    hideListview.classList.replace('hide-more-view', 'non-visible');
+    const hideuserinf = document.querySelectorAll('.visible');
+    for (let f = 0; f < hideuserinf.length; f++) {
+      hideuserinf[f].classList.replace('visible', 'user-info-hide');
+    }
+    viewMorecontent.classList.replace('non-visible', 'user-info-view-more');
+  });
+});
