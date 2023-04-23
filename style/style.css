@@ -2,7 +2,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: blueviolet;
 }
 
 .page-header {
@@ -195,6 +194,105 @@ body {
 .footer {
   display: none;
 }
+/* About page css */
+
+.section-one {
+  background-image: url('../imgs/background/main_big.png');
+  background-repeat: no-repeat;
+  margin-top: -20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.section-one h3 {
+  color: #ec5242;
+  font-size: 20px;
+}
+
+.section-one h1 {
+  color: #ec5242;
+  font-size: 30px;
+}
+
+.section-one .ipsum {
+  margin-top: 30px;
+  padding: 30px;
+  background-color: #ffffff;
+  width: 80%;
+}
+
+.section-one .email {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.section-two, 
+.section-three {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  font-family: sans-serif;
+  border-bottom: 1px solid #d3d3d3;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.section-two div {
+  width: 70%;
+  padding: 30px;
+  align-items: center;
+  border: 1px solid #d3d3d3;
+}
+
+.section-two p {
+  width: 75%;
+}
+
+.section-three > div > img {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.parnter-section-about {
+  background-color: #272a31;
+  color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.parnter-section-about div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-about {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  column-gap: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.footer-about .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .visible {
   display: flex;
@@ -249,6 +347,11 @@ body {
     padding-bottom: 10px;
   }
 
+  .about-nav-bar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
   .nav_bar .my-logo {
     display: flex;
   }
@@ -288,12 +391,35 @@ body {
   }
 
   .home-section {
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 10px;
     background-image: url('../imgs/background/main_big.png');
-    background-repeat: no-repeat;
-    background-size:auto;
+    padding-bottom: 40px;
+  }
+
+  .home-section h1,
+  .home-section h3 {
+    color: #ec5242;
+  }
+
+  .home-section h1 {
+    font-weight: bold;
+    font-size: 90px;
+    color: gradient(rgb(24, 24, 23) , red);;
+  }
+
+  .home-section div {
+    width: 80%;
+    border: 3px solid white;
+    padding: 10px;
+  }
+
+  .home-section .lg-text {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif, COCOGOOSE;
   }
 
   .main-program {
@@ -417,6 +543,82 @@ body {
     column-gap: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  /* About page css */
+
+  .section-one {
+    background-image: url('../imgs/background/main_big.png');
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .section-one h1 {
+    color: #ec5242;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .section-one h3 {
+    display: none;
+  }
+
+  .section-one .ipsum {
+    padding: 30px;
+    background-color: #ffffff;
+    width: 80%;
+  }
+
+  .section-one .email {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .section-two, 
+  .section-three {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    font-family: sans-serif;
+    border-bottom: 1px solid #d3d3d3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .section-two div {
+    padding: 30px;
+    border: 1px solid #d3d3d3;
+  }
+
+  .section-two p {
+    width: 75%;
+  }
+
+  .footer-about {
+    display: flex;
+    flex-direction: row;
+    background-color: #272a31;
+    color: #d3d3d3;
+    column-gap: 50px;
+  }
+
+  .footer-about .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .parnter-section-about {
+    display: none;
   }
 
 }
