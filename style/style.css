@@ -68,6 +68,28 @@ body {
   text-decoration: none;
 }
 
+.home-section {
+  background-image: url('../imgs/background/mob-bg.png');
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home-section h1 {
+  font-size: 50px;
+}
+
+.home-section h1,
+.home-section h3 {
+  color: #ec5242;
+}
+
+.home-section div {
+  background-color: #f0ecec;
+  padding: 10px;
+  border: 2px solid white;
+}
+
 .padding-x {
   padding-left: 25px;
   padding-right: 25px;
@@ -414,6 +436,7 @@ body {
     width: 80%;
     border: 3px solid white;
     padding: 10px;
+    background-color: #e9e5e5;
   }
 
   .home-section .lg-text {
