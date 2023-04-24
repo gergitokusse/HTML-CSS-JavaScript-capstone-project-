@@ -11,11 +11,11 @@ body {
 .nav_bar {
   padding-top: 25px ;
   padding-bottom: 25px ;
-  background-color: rgb(130, 190, 130);
   display: flex;
   flex-direction: column;
   transition-property: all;
   transition-duration: 0.55s;
+  position: fixed;
 }
 
 .nav_bar ul,
@@ -39,15 +39,18 @@ body {
   justify-content: space-between;
   transition-property: all;
   transition-duration: 0.55s;
+  position: fixed;
+  width: 100%;
 }
 
 .nav_bar_mobile .close-btn {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: start;
   color: #fff;
   cursor: pointer;
-  padding: 0 50px;
+  padding-left: 10px;
+  font-size: 25px;
 }
 
 .nav_bar_mobile ul {
@@ -58,9 +61,15 @@ body {
 }
 
 .nav_bar_mobile ul li {
+  cursor: pointer;
   list-style: none;
   border-bottom: 1px solid rgba(152, 155, 152, 0.356);
   padding: 10px;
+  color: #d3d3d3;
+}
+
+.nav_bar_mobile ul .about {
+  color: #ec5242;
 }
 
 .nav_bar_mobile ul li a {
@@ -69,14 +78,17 @@ body {
 }
 
 .home-section {
+  padding-top: 60px;
   background-image: url('../imgs/background/mob-bg.png');
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1px;
+  font-family: sans-serif;
 }
 
 .home-section h1 {
-  font-size: 50px;
+  margin-top: -10px;
+  font-size: 60px;
 }
 
 .home-section h1,
@@ -85,9 +97,14 @@ body {
 }
 
 .home-section div {
-  background-color: #f0ecec;
+  background-color: #f0eded;
   padding: 10px;
   border: 2px solid white;
+}
+
+.home-section .lg-text {
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .padding-x {
@@ -96,12 +113,20 @@ body {
 }
 
 .main-program {
-  background-color: rgb(34, 32, 32);
+  background-color: #272a31;
+  background-image: url('../imgs/background/cross.svg');
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
-  row-gap: 20px;
+  gap: 15px;
+}
+
+.red_underline {
+  width: 8%;
+  border-top: 1px solid #ec5242;
+  margin-top: -30px;
+  margin-bottom: 30px;
 }
 
 .main-program .h1-desk {
@@ -112,13 +137,13 @@ body {
   cursor: pointer;
   border-radius: 8px;
   padding: 30px;
-  background-color: rgb(223, 55, 55);
+  background-color: #ec5242;
 }
 
 .main-program .main-program-content {
   display: flex;
   flex-direction: column;
-  row-gap: 15px;
+  row-gap: 5px;
 
 }
 
@@ -145,6 +170,8 @@ body {
   flex-direction: column;
   row-gap: 15px;
   align-items: center;
+  transition-property: all;
+  transition-duration: 0.5s;
 }
 
 .feature-speaker .feature-speaker-content {
@@ -153,12 +180,16 @@ body {
   gap: 50px;
   padding: 15px;
   align-items: center;
+  transition-property: all;
+  transition-duration: 0.5s;
 }
 
 .feature-speaker .feature-speaker-content .user-info {
   display: flex;
   flex-direction: row;
   column-gap: 15px;
+  transition-property: all;
+  transition-duration: 0.5s;
 }
 
 .feature-speaker .feature-speaker-content .user-info-view-more,
@@ -171,6 +202,8 @@ body {
   color: #272a31;
   cursor: pointer;
   margin-bottom: 25px;
+  transition-property: all;
+  transition-duration: 0.5s;
 }
 
 .feature-speaker .feature-speaker-content .user-info-hide {
@@ -221,12 +254,11 @@ body {
 .section-one {
   background-image: url('../imgs/background/main_big.png');
   background-repeat: no-repeat;
-  margin-top: -20px;
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 10px;
   align-items: center;
   text-align: center;
   font-family: sans-serif;
@@ -238,8 +270,10 @@ body {
 }
 
 .section-one h1 {
+  font-weight: bold;
   color: #ec5242;
   font-size: 30px;
+  margin-top: -10px;
 }
 
 .section-one .ipsum {
@@ -247,6 +281,17 @@ body {
   padding: 30px;
   background-color: #ffffff;
   width: 80%;
+}
+
+.section-one div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-one .p {
+  align-self: center;
+  width: 70%;
 }
 
 .section-one .email {
@@ -259,13 +304,18 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 15px;
   align-items: center;
   font-family: sans-serif;
   border-bottom: 1px solid #d3d3d3;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+}
+
+.section-two h1 {
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .section-two div {
@@ -279,10 +329,10 @@ body {
   width: 75%;
 }
 
-.section-three > div > img {
+.section-three > div {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  gap: 20px;
 }
 
 .parnter-section-about {
@@ -290,6 +340,7 @@ body {
   color: #d3d3d3;
   display: flex;
   flex-direction: column;
+  gap: 15px;
   align-items: center;
   padding-bottom: 30px;
 }
@@ -361,17 +412,14 @@ body {
 
   .nav_bar {
     background-color: white;
-    box-shadow: #d3d3d3;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .about-nav-bar {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
   }
 
   .nav_bar .my-logo {
@@ -385,7 +433,16 @@ body {
   }
 
   .nav_bar ul li {
+    padding: 10px;
     list-style: none;
+  }
+  .nav_bar ul li:hover {
+    cursor: pointer;
+    background-color: #d3d3d3;
+    text-decoration: underline;
+    border-radius: 3px;
+    transition-property: all;
+    transition-duration: 0.5s;
   }
 
   .nav_bar ul li a {
@@ -397,8 +454,7 @@ body {
     color: #ec5242;
   }
 
-  .nav_bar ul li .cc {
-    padding: 10px;
+  .nav_bar ul .cc {
     color: #ec5242;
     border: 3px solid #ec5242;
   }
@@ -524,6 +580,8 @@ body {
     padding: 10px;
     font-family: sans-serif;
     font-size: 14px;
+    transition-property: all;
+    transition-duration: 0.5s;
   }
   
 .feature-speaker .feature-speaker-content .user-biograph span {
@@ -573,7 +631,7 @@ body {
   .section-one {
     background-image: url('../imgs/background/main_big.png');
     background-repeat: no-repeat;
-    padding-top: 20px;
+    padding-top: 70px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -624,6 +682,12 @@ body {
 
   .section-two p {
     width: 75%;
+  }
+
+  .section-three div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
   }
 
   .footer-about {
