@@ -737,12 +737,20 @@ body {
   .parnter-section .partner-content > div > img {
     width: 150px;
     height: 150px;
+    transition-property: all;
+    transition-duration: 0.5s;
   }
 
-  .parnter-section .partner-content > div:hover {
+  .parnter-section .partner-content > div > img:hover {
     cursor: pointer;
-    padding: 1px;
-    rotate: 30deg;
+    transform: scale(1.35);
+    rotate: 360deg;
+  }
+
+  .parnter-section .partner-content > div > p:hover {
+    color: #ec5242;
+    cursor: pointer;
+    text-decoration: underline;
   }
 
   .footer {
