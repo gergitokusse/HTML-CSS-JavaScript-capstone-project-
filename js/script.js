@@ -66,7 +66,7 @@ const featuerspeaker = [{
 ];
 const speakercontent = document.querySelector('.feature-speaker-content');
 let x = 0;
-for (let i = 0; i < featuerspeaker.length; i++) {
+for (let i = 0; i < featuerspeaker.length; i += 1) {
   // to add view more in mobile verision
   if (x >= 2) {
     const viewmore = document.createElement('div');
@@ -75,7 +75,7 @@ for (let i = 0; i < featuerspeaker.length; i++) {
     speakercontent.appendChild(viewmore);
     x = -4;
   }
-  x++;
+  x += 1;
   const userinfo = document.createElement('div');
   userinfo.className = 'user-info';
   if (i >= 2) {
@@ -121,7 +121,7 @@ viewMorecontent.addEventListener('click', () => {
   speakercontent.appendChild(hideMoreview);
 
   const showuserinf = document.querySelectorAll('.user-info-hide');
-  for (let f = 0; f < showuserinf.length; f++) {
+  for (let f = 0; f < showuserinf.length; f += 1) {
     showuserinf[f].classList.replace('user-info-hide', 'visible');
   }
   // to hide listed view
@@ -129,7 +129,7 @@ viewMorecontent.addEventListener('click', () => {
   hideListview.addEventListener('click', () => {
     hideListview.classList.replace('hide-more-view', 'non-visible');
     const hideuserinf = document.querySelectorAll('.visible');
-    for (let f = 0; f < hideuserinf.length; f++) {
+    for (let f = 0; f < hideuserinf.length; f += 1) {
       hideuserinf[f].classList.replace('visible', 'user-info-hide');
     }
     viewMorecontent.classList.replace('non-visible', 'user-info-view-more');
