@@ -157,15 +157,14 @@ body {
   border: 2px solid rgb(34, 32, 32);
 }
 
-
-
 .main-program .main-program-content div img {
-  width: 100px;
-  height: 100px;
+  transition-property: all;
+  transition-duration: 0.5s;
 }
 
-.main-program .main-program-content div h2 {
-  color: rgb(238, 94, 94);
+.main-program .main-program-content div img:hover {
+  cursor: pointer;
+  transform: scale(1.25);
 }
 
 .main-program .main-program-content div:hover {
@@ -199,6 +198,7 @@ body {
   transition-property: all;
   transition-duration: 0.5s;
 }
+
 
 .feature-speaker .feature-speaker-content .user-info-view-more,
 .feature-speaker .feature-speaker-content .hide-more-view {
@@ -663,6 +663,12 @@ body {
     transition-duration: 0.5s;
   }
 
+  
+.feature-speaker .feature-speaker-content .user-info img:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
   .feature-speaker .feature-speaker-content .user-info .user-image:hover {
     transform: scale(110% 120%);
   }
@@ -857,12 +863,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: red;
-    opacity: 0.55;
+    background-color: rgb(207, 9, 9, 0.6);
     width: 500px;
     height: 100vh;
     margin: 0;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: larger;
   }
 
@@ -872,6 +877,7 @@ body {
     background-color: #272a31;
     color: #d3d3d3;
     column-gap: 50px;
+    font-family: sans-serif;
   }
 
   .footer-about .logo {
