@@ -16,31 +16,39 @@ clsbtn.addEventListener('click', () => {
 
 // dynamic page for feature speaker
 const featuerspeaker = [{
-  speakerName: 'Yachaie Blanker',
-  speakerImage: './imgs/users/gg.jpg',
+  speakerName: 'solom SoKa',
+  speakerImage: './imgs/users/solomon.jfif',
   speakerBiograph: {
     education: 'Computer Scince @ University of Gondar',
     description: 'Some versions of Microsoft Word also document and you will get this paragraph: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
   },
 },
 {
-  speakerName: 'Yachaie Blanker',
-  speakerImage: './imgs/users/index.jpg',
+  speakerName: 'Aby Ahmed',
+  speakerImage: './imgs/users/Abiy-Ahmed.jpg',
   speakerBiograph: {
     education: 'Computer Scince @ University of Gondar',
     description: 'Some versions of Microsoft Word ment and you will get this paragraph: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
   },
 },
 {
-  speakerName: 'Yachaie Blanker',
-  speakerImage: './imgs/users/gg.jpg',
+  speakerName: 'Atse Tewdrose',
+  speakerImage: './imgs/users/atstewdrose.jfif',
   speakerBiograph: {
     education: 'Computer Scince @ University of Gondar',
     description: 'Some versions of Microsoft Word also document and you will get this paragraph: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
   },
 },
 {
-  speakerName: 'Yachaie Blanker',
+  speakerName: 'Dawite Gebeyehu',
+  speakerImage: './imgs/users/dawit.jfif',
+  speakerBiograph: {
+    education: 'Computer Scince @ University of Gondar',
+    description: 'Some versions of Microsoft Word ment and you will get this paragraph: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+  },
+},
+{
+  speakerName: 'Abebe Kindie',
   speakerImage: './imgs/users/index.jpg',
   speakerBiograph: {
     education: 'Computer Scince @ University of Gondar',
@@ -48,15 +56,7 @@ const featuerspeaker = [{
   },
 },
 {
-  speakerName: 'Yachaie Blanker',
-  speakerImage: './imgs/users/index.jpg',
-  speakerBiograph: {
-    education: 'Computer Scince @ University of Gondar',
-    description: 'Some versions of Microsoft Word ment and you will get this paragraph: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-  },
-},
-{
-  speakerName: 'Yachaie Blanker',
+  speakerName: 'Wendfraw Manaye',
   speakerImage: './imgs/users/gg.jpg',
   speakerBiograph: {
     education: 'Computer Scince @ University of Gondar',
