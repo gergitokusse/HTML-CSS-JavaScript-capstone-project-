@@ -32,8 +32,8 @@ const featuerspeaker = [{
   },
 },
 {
-  speakerName: 'Atse Tewdrose',
-  speakerImage: './imgs/users/atstewdrose.jfif',
+  speakerName: 'Prof, Berihanu Nega',
+  speakerImage: './imgs/users/nega.jfif',
   speakerBiograph: {
     education: 'Computer Scince @ University of Gondar',
     description: 'Some versions of Microsoft Word also document and you will get this paragraph: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',

@@ -25,8 +25,8 @@ body {
 }
 
 .nav_bar .humburger {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
 }
 
@@ -79,6 +79,7 @@ body {
 
 .home-section {
   padding-top: 60px;
+  padding-bottom: 30px;
   background-image: url('../imgs/background/mob-bg.png');
   display: flex;
   flex-direction: column;
@@ -154,6 +155,13 @@ body {
   flex-direction: row;
   column-gap: 25px;
   border: 2px solid rgb(34, 32, 32);
+}
+
+
+
+.main-program .main-program-content div img {
+  width: 100px;
+  height: 100px;
 }
 
 .main-program .main-program-content div h2 {
@@ -338,11 +346,46 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 10px;
 }
 
-.section-three > div > img {
-  width: 100%;
-  height: 100%;
+
+
+.section-three div section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #d3d3d3;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  width: 350px;
+  height: 250px;
+}
+
+.section-three > div > .image-1 {
+  background-image: url('../imgs/users/event1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section-three > div > .image-2 {
+  background-image: url('../imgs/users/event2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section-three div section p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(207, 9, 9, 0.6);
+  width: 350px;
+  height: 100vh;
+  margin: 0;
+  color: white;
+  font-size: larger;
 }
 
 .parnter-section-about {
@@ -357,18 +400,23 @@ body {
 
 .parnter-section-about div {
   display: flex;
-  flex-direction: row;
+  flex-flow: row;
+  flex-wrap: wrap;
   gap: 20px;
+}
+
+.parnter-section-about div div p {
+  display: none;
 }
 
 .parnter-section-about .partner-content div {
   display: flex;
   flex-direction: column;
-  background-color: #e9e5e5;
+  width: 100px;
 }
 
 .parnter-section-about .partner-content div img {
-  width: 110%;
+  width: 100%;
   height: 100%;
 }
 
@@ -385,6 +433,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.footer-about .logo img {
+  width: 100px;
+  height: 100px;
 }
 
 .visible {
@@ -559,6 +612,11 @@ body {
     border: 2px solid #272a31;
   }
 
+  .main-program .main-program-content div img {
+    width: 150px;
+    height: 150px;
+  }
+
   .main-program .main-program-content div h2 {
     color: #ec5242;
   }
@@ -581,7 +639,7 @@ body {
     flex-direction: column;
     row-gap: 35px;
     align-items: center;
-    background-color: #d3d3d3;
+    background-color: rgb(255, 255, 255);
   }
 
   .feature-speaker .feature-speaker-content {
@@ -589,14 +647,13 @@ body {
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
-    padding: 15px;
   }
 
   .feature-speaker .feature-speaker-content .user-info {
     display: flex;
     flex-direction: row;
     column-gap: 15px;
-    width: 47%;
+    width: 48%;
   }
 
   .feature-speaker .feature-speaker-content .user-info .user-image {
@@ -618,7 +675,6 @@ body {
   .feature-speaker .feature-speaker-content .user-biograph {
     display: flex;
     flex-direction: column;
-    background-color: #d3d3d3;
     padding: 10px;
     font-family: sans-serif;
     font-size: 14px;
@@ -769,12 +825,45 @@ body {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    padding-bottom: 100px;
   }
 
-  .section-three div img {
-    background-color: #ec5242;
-    opacity: 0.3;
-    width: 49%;
+  .section-three div section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #d3d3d3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    width: 500px;
+    height: 400px;
+  }
+
+  .section-three > div > .image-1 {
+    background-image: url('../imgs/users/event1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .section-three > div > .image-2 {
+    background-image: url('../imgs/users/event2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .section-three div section p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+    opacity: 0.55;
+    width: 500px;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    font-size: larger;
   }
 
   .footer-about {
