@@ -465,8 +465,6 @@ body {
   display: none;
 }
 
-
-
 .font-familt-cocogoose {
   font-family: cocogoose, sans-serif;
 }
@@ -596,9 +594,14 @@ body {
     font-weight: bold;
     font-size: 90px;
   }
-  .home-section h3{
+
+  .home-section h3 {
     font-size: 30px;
     font-family: lato, sans-serif;
+  }
+
+  .section-two p {
+    width: 75%;
   }
 
   .home-section div {
@@ -633,10 +636,6 @@ body {
     flex-direction: row;
     gap: 20px;
     padding-bottom: 100px;
-  }
-
-  .section-two p {
-    width: 75%;
   }
 
   .section-two div {
@@ -694,6 +693,18 @@ body {
     flex-direction: column;
     align-items: center;
     border: 2px solid #272a31;
+  }
+
+  .section-three div section p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(207, 9, 9, 0.6);
+    width: 500px;
+    height: 100vh;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: larger;
   }
 
   .main-program .main-program-content div p {
@@ -801,18 +812,6 @@ body {
     width: 10%;
     background-color: #272a31;
     border-top: 3px solid #b9b8b8;
-  }
-
-  .section-three div section p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(207, 9, 9, 0.6);
-    width: 500px;
-    height: 100vh;
-    margin: 0;
-    color: rgb(255, 255, 255);
-    font-size: larger;
   }
 
   .parnter-section {
