@@ -1,8 +1,10 @@
+const body = document.querySelector('body');
 const humburger = document.querySelector('.humburger');
 const mylogo = document.querySelector('.my-logo');
 const navbar = document.querySelector('.nav_bar');
 const clsbtn = document.querySelector('.close-btn');
 humburger.addEventListener('click', () => {
+  body.className = 'hide-overflow-y';
   humburger.classList.replace('humburger', 'non-visible');
   mylogo.classList.replace('my-logo', 'non-visible');
   navbar.classList.replace('nav_bar', 'nav_bar_mobile');

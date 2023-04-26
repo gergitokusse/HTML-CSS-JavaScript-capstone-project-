@@ -72,12 +72,12 @@
 
 - To Get Live demo of the project [click here](https://gergitokusse.github.io/HTML-CSS-JavaScript-capstone-project-/)
 
-<!-- LIVE DEMO -->
+<!-- vedio presentations -->
 
 ## 🎬Project Presentation Video <a name="live-demo"></a> 
 
 
-- To Get vedio presentation of the project [click here](https://gergitokusse.github.io/HTML-CSS-JavaScript-capstone-project-/)
+- To Get vedio presentation of the project [click here](https://www.loom.com/share/d88b7abb2e4a4a5695cedcdf5568667a)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -150,7 +150,5 @@ I would like to thank microverse coordinators and student success for you give m
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

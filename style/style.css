@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+.hide-overflow-y {
+  overflow-y: hidden;
+}
+
 .page-header {
   display: none;
 }
