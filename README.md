@@ -141,6 +141,8 @@ If you like this project...
 
 I would like to thank microverse coordinators and student success for you give me achance to do this project.
 
+Also I will like to thanks Mr. Cind Shine the guide line designer for he design the amizing weg page that enable us to do our capston project.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
