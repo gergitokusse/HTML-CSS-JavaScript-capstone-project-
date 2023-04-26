@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+* {
+  font-family: lato, sans-serif;
+}
+
 .hide-overflow-y {
   overflow-y: hidden;
 }
@@ -461,6 +465,16 @@ body {
   display: none;
 }
 
+
+
+.font-familt-cocogoose {
+  font-family: cocogoose, sans-serif;
+}
+
+.font-family-lato {
+  font-family: lato, sans-serif;
+}
+
 @media (min-width: 768px) {
   body {
     background-color: #d3d3d3;
@@ -542,6 +556,7 @@ body {
   }
 
   .nav_bar ul li a {
+    font-family: lato, sans-serif;
     text-decoration: none;
   }
 
@@ -577,8 +592,13 @@ body {
   }
 
   .home-section h1 {
+    line-height: 90px;
     font-weight: bold;
     font-size: 90px;
+  }
+  .home-section h3{
+    font-size: 30px;
+    font-family: lato, sans-serif;
   }
 
   .home-section div {
@@ -586,6 +606,11 @@ body {
     border: 3px solid white;
     padding: 10px;
     background-color: #e9e5e5;
+  }
+
+  .home-section div p {
+    font-family: lato, sans-serif;
+    line-height: 30px;
   }
 
   .home-section .lg-text {
@@ -664,11 +689,20 @@ body {
 
   .main-program .main-program-content div {
     background-color: #575755;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 2px solid #272a31;
+  }
+
+  .main-program .main-program-content div p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-family: lato, sans-serif;
   }
 
   .main-program .main-program-content div img {
@@ -677,7 +711,12 @@ body {
   }
 
   .main-program .main-program-content div h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     color: #ec5242;
+    font-family: lato, sans-serif;
   }
 
   .main-program .main-program-content div:hover {
@@ -909,5 +948,13 @@ body {
     border-top: 1px solid #ec5242;
     margin-top: -40px;
     margin-bottom: 20px;
+  }
+
+  .font-familt-cocogoose {
+    font-family: cocogoose, sans-serif;
+  }
+
+  .font-family-lato {
+    font-family: lato, sans-serif;
   }
 }
