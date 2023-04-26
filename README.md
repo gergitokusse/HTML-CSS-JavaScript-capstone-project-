@@ -1,32 +1,6 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src='./imgs/users/gg.jpg' alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -62,8 +36,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Capston Project] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[Capston Project]** is a project done at the end of the module.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -97,7 +69,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Loading/ongrogress](https://google.com)
+- To Get Live demo of the project [click here](https://gergitokusse.github.io/HTML-CSS-JavaScript-capstone-project-/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,74 +81,12 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need to access the git account and clone the projects
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+In order to run this project you need to access the git repo. to get the repo [click here](https://github.com/gergitokusse/HTML-CSS-JavaScript-capstone-project-/tree/Project-setup-branch-feature)
+ and clone then projects to your local repo.
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,21 +137,6 @@ I would like to thank microverse coordinators and student success for you give m
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 

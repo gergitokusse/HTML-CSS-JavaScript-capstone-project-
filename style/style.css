@@ -42,6 +42,8 @@ body {
   transition-duration: 0.55s;
   position: fixed;
   width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 .nav_bar_mobile .close-btn {
@@ -59,6 +61,7 @@ body {
   flex-direction: column;
   row-gap: 20px;
   padding-right: 30px;
+  padding-bottom: 250px;
 }
 
 .nav_bar_mobile ul li {
@@ -154,7 +157,7 @@ body {
 .parnter-section-about .partner-content div {
   display: flex;
   flex-direction: column;
-  width: 100px;
+  width: 80px;
 }
 
 .parnter-section-about .partner-content div img {
@@ -197,7 +200,7 @@ body {
 }
 
 .main-program .main-program-content div {
-  background-color: rgb(68, 65, 65);
+  background-color: #575755;
   padding: 25px;
   display: flex;
   flex-direction: row;
@@ -206,6 +209,8 @@ body {
 }
 
 .main-program .main-program-content div img {
+  width: 90px;
+  height: 90px;
   transition-property: all;
   transition-duration: 0.5s;
 }
@@ -217,6 +222,10 @@ body {
 
 .main-program .main-program-content div:hover {
   border: 2px solid whitesmoke;
+}
+
+.main-program .main-program-content div h2 {
+  color: #ec5242;
 }
 
 .feature-speaker {
@@ -640,7 +649,7 @@ body {
     color: #d3d3d3;
     row-gap: 30px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
   }
 
   .main-program .main-program-content {
@@ -651,7 +660,7 @@ body {
   }
 
   .main-program .main-program-content div {
-    background-color: #272a31;
+    background-color: #575755;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -660,8 +669,8 @@ body {
   }
 
   .main-program .main-program-content div img {
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
   }
 
   .main-program .main-program-content div h2 {
