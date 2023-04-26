@@ -220,7 +220,6 @@ body {
   transition-duration: 0.5s;
 }
 
-
 .main-program .main-program-content div img:hover {
   cursor: pointer;
   transform: scale(1.25);
@@ -233,6 +232,26 @@ body {
 .main-program .main-program-content div h2 {
   color: #ec5242;
   width: 30%;
+}
+
+.section-two p {
+  width: 75%;
+}
+
+.parnter-section-about div div p {
+  display: none;
+}
+
+.section-three div section p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(207, 9, 9, 0.6);
+  width: 350px;
+  height: 100vh;
+  margin: 0;
+  color: white;
+  font-size: larger;
 }
 
 .main-program .main-program-content div p {
@@ -385,10 +404,6 @@ body {
   font-size: 30px;
 }
 
-.section-two p {
-  width: 75%;
-}
-
 .section-three div section {
   display: flex;
   flex-direction: column;
@@ -413,18 +428,6 @@ body {
   background-size: cover;
 }
 
-.section-three div section p {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: rgb(207, 9, 9, 0.6);
-  width: 350px;
-  height: 100vh;
-  margin: 0;
-  color: white;
-  font-size: larger;
-}
-
 .parnter-section-about {
   background-color: #272a31;
   color: #d3d3d3;
@@ -433,10 +436,6 @@ body {
   gap: 15px;
   align-items: center;
   padding-bottom: 30px;
-}
-
-.parnter-section-about div div p {
-  display: none;
 }
 
 .footer-about {
