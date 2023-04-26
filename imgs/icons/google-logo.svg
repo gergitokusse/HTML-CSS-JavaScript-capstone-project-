@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70" version="1.1">
+    <title>google</title>
+    <g id="google" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(11.000000, 11.000000)">
+            <path d="M24,9.5 C27.54,9.5 30.71,10.72 33.21,13.1 L40.06,6.25 C35.9,2.38 30.47,0 24,0 C14.62,0 6.51,5.38 2.56,13.22 L10.54,19.41 C12.43,13.72 17.74,9.5 24,9.5 Z" id="Path" fill="#EA4335" fill-rule="nonzero"/>
+            <path d="M46.98,24.55 C46.98,22.98 46.83,21.46 46.6,20 L24,20 L24,29.02 L36.94,29.02 C36.36,31.98 34.68,34.5 32.16,36.2 L39.89,42.2 C44.4,38.02 46.98,31.84 46.98,24.55 L46.98,24.55 Z" id="Path" fill="#4285F4" fill-rule="nonzero"/>
+            <path d="M10.53,28.59 C10.05,27.14 9.77,25.6 9.77,24 C9.77,22.4 10.04,20.86 10.53,19.41 L2.55,13.22 C0.92,16.46 0,20.12 0,24 C0,27.88 0.92,31.54 2.56,34.78 L10.53,28.59 Z" id="Path" fill="#FBBC05" fill-rule="nonzero"/>
+            <path d="M24,48 C30.48,48 35.93,45.87 39.89,42.19 L32.16,36.19 C30.01,37.64 27.24,38.49 24,38.49 C17.74,38.49 12.43,34.27 10.53,28.58 L2.55,34.77 C6.51,42.62 14.62,48 24,48 Z" id="Path" fill="#34A853" fill-rule="nonzero"/>
+            <polygon id="Path" points="0 0 48 0 48 48 0 48"/>
+        </g>
+    </g>
+</svg>

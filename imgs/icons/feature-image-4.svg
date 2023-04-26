@@ -1,0 +1,84 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="Group_177" data-name="Group 177" viewBox="0 0 160 151.832" width="160"  height="151.832" >
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #76d1f2;
+      }
+
+      .cls-2 {
+        fill: #e86b7b;
+      }
+
+      .cls-3 {
+        fill: #7ccac6;
+      }
+
+      .cls-4 {
+        fill: #8883b8;
+      }
+
+      .cls-5 {
+        fill: #d2b2e9;
+      }
+
+      .cls-6 {
+        fill: #f199be;
+      }
+
+      .cls-7 {
+        fill: #fdf5a2;
+      }
+
+      .cls-8 {
+        fill: #63d4fd;
+      }
+
+      .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-10 {
+        fill: #e6eef3;
+      }
+
+      .cls-11 {
+        fill: #f2f9fe;
+      }
+    </style>
+  </defs>
+  <path id="Path_1367" data-name="Path 1367" class="cls-1" d="M3.961,32.188A.908.908,0,0,1,3,31.227V25.461a.908.908,0,0,1,.961-.961.908.908,0,0,1,.961.961v5.766A.908.908,0,0,1,3.961,32.188Z" transform="translate(-0.117 -0.956)"/>
+  <path id="Path_1368" data-name="Path 1368" class="cls-1" d="M6.727,29.422H.961a.961.961,0,0,1,0-1.922H6.727a.961.961,0,0,1,0,1.922Z" transform="translate(0 -1.074)"/>
+  <circle id="Oval_21_" class="cls-2" cx="1.441" cy="1.441" r="1.441" transform="translate(12.492 45.165)"/>
+  <path id="Path_1369" data-name="Path 1369" class="cls-3" d="M15.844,93.688a3.844,3.844,0,1,1,3.844-3.844A3.855,3.855,0,0,1,15.844,93.688Zm0-5.766a1.922,1.922,0,1,0,1.922,1.922A1.928,1.928,0,0,0,15.844,87.922Z" transform="translate(-0.468 -3.357)"/>
+  <circle id="Oval_20_" class="cls-4" cx="1.441" cy="1.441" r="1.441" transform="translate(4.805 110.511)"/>
+  <circle id="Oval_19_" class="cls-5" cx="1.441" cy="1.441" r="1.441" transform="translate(10.571 10.571)"/>
+  <path id="Path_1370" data-name="Path 1370" class="cls-2" d="M31.844,7.688a3.844,3.844,0,1,1,3.844-3.844A3.855,3.855,0,0,1,31.844,7.688Zm0-5.766a1.922,1.922,0,1,0,1.922,1.922A1.928,1.928,0,0,0,31.844,1.922Z" transform="translate(-1.093)"/>
+  <path id="Path_1371" data-name="Path 1371" class="cls-6" d="M33.544,143.588a3.844,3.844,0,1,1,3.844-3.844A3.855,3.855,0,0,1,33.544,143.588Zm0-5.766a1.922,1.922,0,1,0,1.922,1.922A1.928,1.928,0,0,0,33.544,137.822Z" transform="translate(-1.159 -5.305)"/>
+  <path id="Path_1372" data-name="Path 1372" class="cls-7" d="M162.961,111.266A.908.908,0,0,1,162,110.3v-3.844a.961.961,0,0,1,1.922,0V110.3A.908.908,0,0,1,162.961,111.266Z" transform="translate(-6.324 -4.119)"/>
+  <path id="Path_1373" data-name="Path 1373" class="cls-7" d="M164.8,109.422h-3.844a.961.961,0,0,1,0-1.922H164.8a.961.961,0,0,1,0,1.922Z" transform="translate(-6.246 -4.197)"/>
+  <circle id="Oval_18_" class="cls-3" cx="1.441" cy="1.441" r="1.441" transform="translate(155.676 139.339)"/>
+  <circle id="Oval_17_" class="cls-4" cx="1.441" cy="1.441" r="1.441" transform="translate(135.495 148.949)"/>
+  <path id="Path_1374" data-name="Path 1374" class="cls-7" d="M140.961,9.188A.908.908,0,0,1,140,8.227V2.461a.961.961,0,0,1,1.922,0V8.227A.908.908,0,0,1,140.961,9.188Z" transform="translate(-5.466 -0.059)"/>
+  <path id="Path_1375" data-name="Path 1375" class="cls-7" d="M143.727,6.422h-5.766A.908.908,0,0,1,137,5.461a.908.908,0,0,1,.961-.961h5.766a.908.908,0,0,1,.961.961A.908.908,0,0,1,143.727,6.422Z" transform="translate(-5.348 -0.176)"/>
+  <circle id="Oval_16_" class="cls-8" cx="1.441" cy="1.441" r="1.441" transform="translate(91.772 5.766)"/>
+  <circle id="Oval_15_" class="cls-2" cx="1.441" cy="1.441" r="1.441" transform="translate(58.138 147.027)"/>
+  <circle id="Oval_11_" class="cls-4" cx="1.441" cy="1.441" r="1.441" transform="translate(157.117 24.985)"/>
+  <path id="Path_1376" data-name="Path 1376" class="cls-1" d="M140.344,128.688a3.844,3.844,0,1,1,3.844-3.844A3.855,3.855,0,0,1,140.344,128.688Zm0-5.766a1.922,1.922,0,1,0,1.922,1.922A1.928,1.928,0,0,0,140.344,122.922Z" transform="translate(-5.329 -4.724)"/>
+  <path id="Shape_13_" class="cls-9" d="M84.658,134.592V63H27Z" transform="translate(-1.054 -2.459)"/>
+  <path id="Shape_12_" class="cls-10" d="M87,134.592V63h57.658Z" transform="translate(-3.396 -2.459)"/>
+  <path id="Shape_5_" class="cls-10" d="M143.932,61.708H68.4L88.292,29.9H124.04Z" transform="translate(-2.67 -1.167)"/>
+  <path id="Shape_4_" class="cls-9" d="M102.532,61.708H27L46.892,29.9H82.64Z" transform="translate(-1.054 -1.167)"/>
+  <path id="Shape_3_" class="cls-11" d="M84.982,134.592,35.3,63h97.441Z" transform="translate(-1.378 -2.459)"/>
+  <path id="Shape_2_" class="cls-11" d="M134.663,61.708H35.3L55.192,29.9h59.58Z" transform="translate(-1.378 -1.167)"/>
+  <path id="Path_1377" data-name="Path 1377" d="M84.564,136.185,24.6,61.518,45.741,27.5h77.646l21.141,34.018ZM29.213,61.326l55.351,68.709,55.351-68.8L121.273,31.248H47.855Z" transform="translate(-0.96 -1.074)"/>
+  <path id="Path_1378" data-name="Path 1378" d="M85.387,135.142a1.971,1.971,0,0,1-1.826-1.249L45.8,30.494a1.946,1.946,0,1,1,3.652-1.345l37.766,103.4a2,2,0,0,1-1.153,2.5A1.635,1.635,0,0,1,85.387,135.142Z" transform="translate(-1.783 -1.088)"/>
+  <path id="Path_1379" data-name="Path 1379" d="M86.921,133.124a1.635,1.635,0,0,1-.673-.1,1.961,1.961,0,0,1-1.153-2.5L122.861,29.148a1.946,1.946,0,1,1,3.652,1.345L88.747,131.875A1.971,1.971,0,0,1,86.921,133.124Z" transform="translate(-3.317 -1.088)"/>
+  <path id="Path_1380" data-name="Path 1380" d="M57.712,64.344H27.922a1.922,1.922,0,0,1,0-3.844h29.79a1.922,1.922,0,0,1,0,3.844Z" transform="translate(-1.015 -2.362)"/>
+  <path id="Path_1381" data-name="Path 1381" d="M144.712,64.344h-29.79a1.922,1.922,0,0,1,0-3.844h29.79a1.922,1.922,0,0,1,0,3.844Z" transform="translate(-4.411 -2.362)"/>
+  <g id="Group_2_" transform="translate(72.264 52.565)">
+    <circle id="Oval_5_" cx="1.922" cy="1.922" r="1.922" transform="translate(0 0)"/>
+    <circle id="Oval_4_" cx="1.922" cy="1.922" r="1.922" transform="translate(16.913 0)"/>
+    <path id="Shape_1_" d="M14.945,13.2a.729.729,0,0,1,.384.192.578.578,0,0,1,.1.384,4.654,4.654,0,0,1-9.225,0,.578.578,0,0,1,.1-.384A.5.5,0,0,1,6.68,13.2Z" transform="translate(-0.434 -2.149)"/>
+    <ellipse id="Oval_1_" class="cls-6" cx="2.306" cy="1.153" rx="2.306" ry="1.153" transform="translate(8.072 12.589)"/>
+  </g>
+</svg>
