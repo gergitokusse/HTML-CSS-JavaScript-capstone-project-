@@ -11,6 +11,7 @@ humburger.addEventListener('click', () => {
 });
 
 clsbtn.addEventListener('click', () => {
+  body.classList.remove('hide-overflow-y');
   navbar.classList.replace('nav_bar_mobile', 'nav_bar');
   humburger.classList.replace('non-visible', 'humburger');
   mylogo.classList.replace('non-visible', 'my-logo');
