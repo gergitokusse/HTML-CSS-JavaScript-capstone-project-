@@ -1,10 +1,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src='./imgs/users/gg.jpg' alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h1><b>Capston Project Module-one</b></h1>
+
+  <h1><b>Student Information Managment System(SIMS)</b></h1>
 
 </div>
 
@@ -34,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capston Project] <a name="about-project"></a>
+# 📖 [SIMS] <a name="about-project"></a>
 
-**[Capston Project]** is a project done at the end of the module.
+**[SIMS]** Student Information Managment System is web based application designed for managing student information in high school and perparatory school.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,9 +52,7 @@
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
-
-> The following are the key feature of the projects
+# Key Features <a name="key-features"></a>
 
 - **[ Home page and About pagewas developed ]**
 - **[Mobile and Desktop version]**
@@ -86,15 +83,30 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+### Pre-requisites
 
 In order to run this project you need to access the git repo. to get the repo [click here](https://github.com/gergitokusse/HTML-CSS-JavaScript-capstone-project-/tree/Project-setup-branch-feature)
- and clone then projects to your local repo.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+```sh
+  mkdir my-folder
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+### Usage
+
+To run the project, follow the following steps:
+
+
+```sh
+1. Open the cloned repo using any editor (like VS code)
+2. To run the project you have the following options:-
+    2.1. After you open the project using VScode goto the index.html file the right click on the file then click on open with live sever. then wait seconde the project will run on the browser.
+    2.2 On the VS-code window goto the right bottom then find `Go Live` then click on it.
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -106,14 +118,11 @@ Clone this repository to your desired folder:
 
 - GitHub: [@githubhandle](https://github.com/gergitokusse)
 - Twitter: [@twitterhandle](https://twitter.com/gergitokusse)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/gergitokusse)
+- LinkedIn: [@LinkedIn](https://linkedin.com/in/gergitokusse)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -130,7 +139,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project...
+If you like this project you can give star on github page [project-link](https://github.com/gergitokusse/HTML-CSS-JavaScript-capstone-project-)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +147,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse coordinators and student success for you give me achance to do this project.
+I would like to thanks morning session, code partner, and standup session team members for they help me during immplementation of the project.
 
 Also I will like to thanks Mr. Cind Shine the guide line designer for he design the amizing weg page that enable us to do our capston project.
 
